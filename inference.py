@@ -25,7 +25,7 @@ def predict(image_path):
 
 # Test the prediction function
 image_path = "testImage.jpg"
-class_names = 6 ['Pepper__bell___Bacterial_spot', 'Pepper__bell___healthy', 'Tomato_Bacterial_spot', 'Tomato_Early_blight', 'Tomato_Leaf_Mold', 'Tomato_healthy']
+class_names = ['Pepper__bell___Bacterial_spot', 'Pepper__bell___healthy', 'Tomato_Bacterial_spot', 'Tomato_Early_blight', 'Tomato_Leaf_Mold', 'Tomato_healthy']
   # Replace with your class names
 prediction = predict(image_path)
 print(f"Predicted class: {class_names[prediction]}")
